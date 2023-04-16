@@ -1,0 +1,8 @@
+enum HTTP_STATUS_CODES {
+    OK = 2,
+    NOT_AUTHORIZED = 0,
+    INTERNAL_SERVER_ERROR = 5,
+  }
+  export const SUCCESS_STATUS = [HTTP_STATUS_CODES.OK];
+  export default HTTP_STATUS_CODES;
+  
